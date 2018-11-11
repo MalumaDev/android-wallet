@@ -22,7 +22,7 @@
 	<string name="exchange_rates_fragment_default">(по умолчанию)</string>
 	<string name="exchange_rates_fragment_rate">курс</string>
 	<string name="exchange_rates_fragment_balance">баланс</string>
-	<string name="exchange_rates_fragment_source">Цена получена с %s</string>
+	<string name="exchange_rates_fragment_source">Цена получена с %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Установить как валюту по умолчанию</string>
 	<string name="wallet_transactions_fragment_tab_received">Получено</string>
 	<string name="wallet_transactions_fragment_tab_all">Все</string>
@@ -50,10 +50,10 @@
 
 	<string name="send_coins_fragment_receiving_address_hint">введите адрес или имя</string>
 	<string name="send_coins_fragment_receiving_address_error">Некорректный Dimecoin-адрес!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Невозможно использовать адрес %s с этим бумажником!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Невозможно использовать адрес %1$s с этим бумажником!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Невозможно использовать адрес неизвестной сети с этим бумажником</string>
 
-	<string name="send_coins_fragment_pending">(DIME %s ожидают подтверждения)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s ожидают подтверждения)</string>
 	<string name="send_coins_fragment_amount_label">Величина оплаты</string>
 
 	<string name="send_coins_fragment_button_send">Отправить</string>
@@ -111,19 +111,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">незашифрованно</string>
 	<string name="import_keys_dialog_file_security_external">внешнее хранилище</string>
 	<string name="import_keys_dialog_file_security_internal">приватное хранилище</string>
-	<string name="import_keys_dialog_file_created_automatic">автоматическое резервное копирование %s</string>
-	<string name="import_keys_dialog_file_created_manual">ручная резервная копия %s</string>
+	<string name="import_keys_dialog_file_created_automatic">автоматическое резервное копирование %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">ручная резервная копия %1$s</string>
 	<string name="import_keys_dialog_button_import">Восстановить</string>
 	<string name="import_keys_dialog_success_imported">%d приватных ключей восстановлено.</string>
 	<string name="import_keys_dialog_success_existing">%d приватных ключей не были восстановлены, так как они уже имеются в вашем бумажнике.</string>
 	<string name="import_keys_dialog_success_reset">Вам необходимо сбросить цепь блоков, чтобы обновить баланс. Желаете сделать это?</string>
-	<string name="import_keys_dialog_failure">Не удалось восстановить приватные ключи:\n\n%s\n\nНеверный пароль?</string>
+	<string name="import_keys_dialog_failure">Не удалось восстановить приватные ключи:\n\n%1$s\n\nНеверный пароль?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Сброс</string>
 	<string name="export_keys_dialog_title">Сделать резервную копию приватных ключей</string>
 	<string name="export_keys_dialog_message">Ваши приватные ключи будут зашифрованы с указанным паролем и записаны на внешнее хранилище.</string>
 	<string name="export_keys_dialog_button_export">Резервная копия</string>
-	<string name="export_keys_dialog_success">Ваши приватные ключи были сохранены в\n\n%s\n\nДержите их и ваш пароль в безопасности!\n\nХотите заархивировать ключи с помощью приложения?</string>
-	<string name="export_keys_dialog_failure">Не удалось сохранить ваши приватные ключи:\n%s</string>
+	<string name="export_keys_dialog_success">Ваши приватные ключи были сохранены в\n\n%1$s\n\nДержите их и ваш пароль в безопасности!\n\nХотите заархивировать ключи с помощью приложения?</string>
+	<string name="export_keys_dialog_failure">Не удалось сохранить ваши приватные ключи:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Архив</string>
 	<string name="export_keys_dialog_mail_subject">Резервная копия приватного ключа Dimecoin Wallet</string>
 	<string name="export_keys_dialog_mail_text">Приложенный зашифрованный файл содержит приватные ключи Dimecoin, он должен всегда храниться в безопасности. Не забудьте пароль шифрования!</string>
@@ -134,10 +134,10 @@
 	<string name="import_keys_intent_filter_action">Восстановление ключа Dimecoin</string>
 	<string name="scan_camera_problem_dialog_title">Извините</string>
 	<string name="scan_camera_problem_dialog_message">Проблема с камерой. Возможно, вам нужно перезагрузить устройство.</string>
-	<string name="input_parser_cannot_classify">Не удалось классифицировать ввод:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Неверный Dimecoin URI:\n%s</string>
+	<string name="input_parser_cannot_classify">Не удалось классифицировать ввод:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Неверный Dimecoin URI:\n%1$s</string>
 	<string name="input_parser_invalid_address">Получен неверный адрес биткоин!\n(перепутаны Testnet/Mainnet?)</string>
-	<string name="input_parser_invalid_transaction">Неверная транзакция:\n%s</string>
+	<string name="input_parser_invalid_transaction">Неверная транзакция:\n%1$s</string>
 	<string name="preferences_activity_title">Настройки</string>
 	<string name="preferences_category_main">Параметры</string>
 	<string name="preferences_category_diagnostics">Диагностика</string>
@@ -168,11 +168,11 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Отправить отчет используя…</string>
 	<string name="about_title">О программе</string>
 	<string name="about_license_title">Лицензия</string>
-	<string name="about_credits_bitcoinj_title">Это приложение использует Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Это приложение использует Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Это приложение использует \'zxing\'</string>
     <string name="about_market_app_title">Страница на Google Play</string>
 
-    <string name="notification_coins_received_msg">Получено %s</string>
+    <string name="notification_coins_received_msg">Получено %1$s</string>
 	<string name="notification_peers_connected_msg">подключено %d участников</string>
 	<!-- generic buttons -->
     <string name="button_dismiss">Отклонить</string>

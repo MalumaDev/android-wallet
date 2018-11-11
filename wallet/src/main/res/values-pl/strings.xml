@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(domyślnie)</string>
 	<string name="exchange_rates_fragment_rate">kurs</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Cena pobrana z %s</string>
+	<string name="exchange_rates_fragment_source">Cena pobrana z %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Ustaw jako domyślną obcą walutę</string>
 	<string name="wallet_transactions_fragment_tab_received">Otrzymane</string>
 	<string name="wallet_transactions_fragment_tab_all">Wszystkie</string>
@@ -48,9 +48,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Zapłać dla</string>
 	<string name="send_coins_fragment_receiving_address_hint">wpisz adres lub nazwę</string>
 	<string name="send_coins_fragment_receiving_address_error">Nieprawidłowy adres Dimecoin!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">W tym portfelu nie można użyć adresu %s!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">W tym portfelu nie można użyć adresu %1$s!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">W tym portfelu nie można użyć adresu z nieznanej sieci!</string>
-	<string name="send_coins_fragment_pending">(%s DIME oczekuje na potwierdzenie)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME oczekuje na potwierdzenie)</string>
 
 	<string name="send_coins_fragment_amount_label">Kwota do zapłacenia</string>
 	<string name="send_coins_fragment_button_send">Wyślij</string>
@@ -109,19 +109,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">niezaszyfrowane</string>
 	<string name="import_keys_dialog_file_security_external">zewnętrzny nośnik</string>
 	<string name="import_keys_dialog_file_security_internal">aplikacja przechowująca</string>
-	<string name="import_keys_dialog_file_created_automatic">automatyczna kopia bezpieczeństwa %s</string>
-	<string name="import_keys_dialog_file_created_manual">Ręcznie zapisano %s</string>
+	<string name="import_keys_dialog_file_created_automatic">automatyczna kopia bezpieczeństwa %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">Ręcznie zapisano %1$s</string>
 	<string name="import_keys_dialog_button_import">Odzyskaj</string>
 	<string name="import_keys_dialog_success_imported">Odzyskano %d kluczy prywatnych</string>
 	<string name="import_keys_dialog_success_existing">Nie zaimportowano %d prywatnych kluczy, ponieważ już znajdują się w Twoim portfelu.</string>
 	<string name="import_keys_dialog_success_reset">Musisz zresetować łańcuch bloków by zaktualizować saldo portfela. Czy chcesz to zrobić?</string>
-	<string name="import_keys_dialog_failure">Nie udało się zaimportować kluczy prywatnych:\n\n%s\n\nBłędne hasło?</string>
+	<string name="import_keys_dialog_failure">Nie udało się zaimportować kluczy prywatnych:\n\n%1$s\n\nBłędne hasło?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Resetuj</string>
 	<string name="export_keys_dialog_title">Eksportuj prywatne klucze</string>
 	<string name="export_keys_dialog_message">Twoje prywatne klucze zostaną zaszyfrowane wybranym hasłem a następnie zapisane na zewnętrznym nośniku.</string>
 	<string name="export_keys_dialog_button_export">Kopia zapasowa</string>
-	<string name="export_keys_dialog_success">Twoje klucze prywatne zostały eksportowane do\n\n%s\n\nZabezpiecz je wraz z hasłem!\n\nCzy chcesz zabezpieczyć Twoje klucze za pomocą tej aplikacji?</string>
-	<string name="export_keys_dialog_failure">Twoje prywatne klucze nie mogły być wyeksportowane:\n%s</string>
+	<string name="export_keys_dialog_success">Twoje klucze prywatne zostały eksportowane do\n\n%1$s\n\nZabezpiecz je wraz z hasłem!\n\nCzy chcesz zabezpieczyć Twoje klucze za pomocą tej aplikacji?</string>
+	<string name="export_keys_dialog_failure">Twoje prywatne klucze nie mogły być wyeksportowane:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Archiwum</string>
 	<string name="export_keys_dialog_mail_subject">Przechowalnia kluczy prywatnych Dimecoin Wallet</string>
 	<string name="export_keys_dialog_mail_text">Załączony zaszyfrowany plik zawiera klucze prywatne Dimecoin i powinien być przechowywany w bezpiecznym miejscu przez cały czas. Nie zapomnij szyfrującego hasła!</string>
@@ -132,9 +132,9 @@
 	<string name="import_keys_intent_filter_action">Importowanie kluczy Dimecoin</string>
 	<string name="scan_camera_problem_dialog_title">Przepraszam</string>
 	<string name="scan_camera_problem_dialog_message">Nastąpił problem z aparatem fotograficznym. Prawdopodobnie musisz zrestartować urządzenie.</string>
-	<string name="input_parser_cannot_classify">Nie udało się sklasyfikować danych wejściowych:\n%s</string>
+	<string name="input_parser_cannot_classify">Nie udało się sklasyfikować danych wejściowych:\n%1$s</string>
 	<string name="input_parser_invalid_address">Otrzymano niepoprawny adres Dimecoin!\n(Pomylono Testnet z Prodnet?)</string>
-	<string name="input_parser_invalid_transaction">Transakcja nie powiodła się:\n%s</string>
+	<string name="input_parser_invalid_transaction">Transakcja nie powiodła się:\n%1$s</string>
 	<string name="preferences_activity_title">Ustawienia</string>
 	<string name="preferences_category_main">Preferencje</string>
 	<string name="preferences_category_diagnostics">Diagnostyka</string>
@@ -170,7 +170,7 @@
 	<string name="about_credits_zxing_title">Ta aplikacja korzysta z \'zxing\'</string>
     <string name="about_market_app_title">Strona Google Play</string>
 	<string name="about_market_app_summary">Wyraź swoją opinię o Aplikacji lub ją oceń</string>
-    <string name="notification_coins_received_msg">Otrzymano %s </string>
+    <string name="notification_coins_received_msg">Otrzymano %1$s </string>
 	<string name="notification_peers_connected_msg">%d połączonych partnerów</string>
 
 	<!-- generic buttons -->

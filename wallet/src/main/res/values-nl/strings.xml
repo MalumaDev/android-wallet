@@ -25,7 +25,7 @@
 	<string name="send_coins_fragment_receiving_address_hint">typ adres of naam</string>
 
 	<string name="send_coins_fragment_receiving_address_error">Ongeldig Dimecoin Adres!</string>
-	<string name="send_coins_fragment_pending">(DIME %s wachtend op bevestiging)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s wachtend op bevestiging)</string>
 
 	<string name="send_coins_fragment_amount_label">Bedrag te betalen</string>
 	<string name="send_coins_fragment_button_send">Verzenden</string>
@@ -55,11 +55,11 @@
 
 	<string name="about_title">Over</string>
 	<string name="about_license_title">Licentie</string>
-	<string name="about_credits_bitcoinj_title">Deze app gebruikt Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Deze app gebruikt Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"Deze app gebruikt 'zxing'"</string>
     <string name="about_market_app_title">Google Play App Pagina</string>
 
-    <string name="notification_coins_received_msg">Ontvangen %s</string>
+    <string name="notification_coins_received_msg">Ontvangen %1$s</string>
 	<string name="notification_peers_connected_msg">%d verbindingen</string>
 
 	<!-- generic buttons -->

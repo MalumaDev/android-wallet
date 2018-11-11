@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(default)</string>
 	<string name="exchange_rates_fragment_rate">rate</string>
 	<string name="exchange_rates_fragment_balance">balance</string>
-	<string name="exchange_rates_fragment_source">Price fetched from %s</string>
+	<string name="exchange_rates_fragment_source">Price fetched from %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Set as default foreign currency</string>
 	<string name="wallet_transactions_fragment_tab_received">Received</string>
 	<string name="wallet_transactions_fragment_tab_all">Both</string>
@@ -49,17 +49,17 @@
 	<string name="wallet_precision_warning_dialog_msg">Denomination has been changed from Dimecoin (DIME) to milliDimecoin (mDIME). All amounts are multiplied by a factor of 1000.\n\nYou can revert this change in the settings.</string>
 
 	<string name="send_coins_activity_title">Send Dimecoins</string>
-	<string name="send_coins_fragment_payee_verified_by">verified by: %s</string>
+	<string name="send_coins_fragment_payee_verified_by">verified by: %1$s</string>
 	<string name="send_coins_fragment_payee_verified_by_unknown">unknown</string>
 
 	<string name="send_coins_fragment_receiving_address_label">Pay to</string>
 	<string name="send_coins_fragment_receiving_address_hint">type address or name</string>
 	<string name="send_coins_fragment_receiving_address_error">Invalid Dimecoin Address!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Cannot use %s address with this wallet!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Cannot use %1$s address with this wallet!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Cannot use address of unknown network with this wallet!</string>
 
 	<string name="send_coins_fragment_receiving_address_complex">complex\naddress</string>
-	<string name="send_coins_fragment_pending">(DIME %s waiting for confirmation)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s waiting for confirmation)</string>
 
 	<string name="send_coins_fragment_amount_label">Amount to pay</string>
 	<string name="send_coins_fragment_direct_payment_enable">Send payment directly to the payee.</string>
@@ -70,7 +70,7 @@
 	<string name="send_coins_fragment_button_send">Send</string>
 	<string name="send_coins_fragment_button_back">Back</string>
 	<string name="send_coins_fragment_insufficient_money_title">Not enough available coins</string>
-	<string name="send_coins_fragment_insufficient_money_msg1">You\'re missing %s.</string>
+	<string name="send_coins_fragment_insufficient_money_msg1">You\'re missing %1$s.</string>
 	<string name="send_coins_fragment_insufficient_money_msg2">Do you want to pay all you have?</string>
 	<string name="send_coins_preparation_msg">Signing…</string>
 	<string name="send_coins_sending_msg">Sending…</string>
@@ -127,19 +127,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">unencrypted</string>
 	<string name="import_keys_dialog_file_security_external">external storage</string>
 	<string name="import_keys_dialog_file_security_internal">app-private storage</string>
-	<string name="import_keys_dialog_file_created_automatic">automatic backup %s</string>
-	<string name="import_keys_dialog_file_created_manual">manually backed up %s</string>
+	<string name="import_keys_dialog_file_created_automatic">automatic backup %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">manually backed up %1$s</string>
 	<string name="import_keys_dialog_button_import">Restore</string>
 	<string name="import_keys_dialog_success_imported">%d private keys were restored.</string>
 	<string name="import_keys_dialog_success_existing">%d private keys were not restored, because you already have them in your wallet.</string>
 	<string name="import_keys_dialog_success_reset">You need to reset your blockchain in order to update your balance. Would you like to?</string>
-	<string name="import_keys_dialog_failure">Private keys could not be restored:\n\n%s\n\nBad password?</string>
+	<string name="import_keys_dialog_failure">Private keys could not be restored:\n\n%1$s\n\nBad password?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Reset</string>
 	<string name="export_keys_dialog_title">Back up private keys</string>
 	<string name="export_keys_dialog_message">Your private keys will be encrypted with the chosen password and written to external storage.</string>
 	<string name="export_keys_dialog_button_export">Back up</string>
-	<string name="export_keys_dialog_success">Your private keys have been backed up to\n\n%s\n\nKeep them safe, and keep your password safe!\n\nDo you want to archive your keys using an app?</string>
-	<string name="export_keys_dialog_failure">Your private keys could not be backed up:\n%s</string>
+	<string name="export_keys_dialog_success">Your private keys have been backed up to\n\n%1$s\n\nKeep them safe, and keep your password safe!\n\nDo you want to archive your keys using an app?</string>
+	<string name="export_keys_dialog_failure">Your private keys could not be backed up:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Archive</string>
 	<string name="export_keys_dialog_mail_subject">Dimecoin Wallet private key backup</string>
 	<string name="export_keys_dialog_mail_text">The attached encrypted file contains Dimecoin private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
@@ -151,14 +151,14 @@
 	<string name="import_keys_intent_filter_action">Dimecoin key restore</string>
 	<string name="scan_camera_problem_dialog_title">Sorry</string>
 	<string name="scan_camera_problem_dialog_message">The camera has a problem. You probably need to restart the device.</string>
-	<string name="input_parser_io_error">Cannot read data:\n%s</string>
-	<string name="input_parser_cannot_classify">Cannot classify input:\n%s</string>
+	<string name="input_parser_io_error">Cannot read data:\n%1$s</string>
+	<string name="input_parser_cannot_classify">Cannot classify input:\n%1$s</string>
 
-	<string name="input_parser_invalid_bitcoin_uri">Invalid Dimecoin URI:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Invalid Dimecoin URI:\n%1$s</string>
 	<string name="input_parser_invalid_address">Got invalid Dimecoin address!\n(Mixing up Mainnet/Testnet?)</string>
-	<string name="input_parser_invalid_paymentrequest">Invalid payment request:\n%s</string>
+	<string name="input_parser_invalid_paymentrequest">Invalid payment request:\n%1$s</string>
 
-	<string name="input_parser_invalid_transaction">Invalid transaction:\n%s</string>
+	<string name="input_parser_invalid_transaction">Invalid transaction:\n%1$s</string>
 	<string name="preferences_activity_title">Settings</string>
 	<string name="preferences_category_main">Preferences</string>
 	<string name="preferences_category_diagnostics">Diagnostics</string>
@@ -190,7 +190,7 @@
 	<string name="report_issue_dialog_mail_intent_failed">Sending report failed.</string>
 	<string name="about_title">About</string>
 	<string name="about_license_title">License</string>
-	<string name="about_credits_bitcoinj_title">This app is using Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">This app is using Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"This app is using 'zxing'"</string>
 
 	<string name="about_credits_website_title">"Dimecoin Website"</string>
@@ -198,7 +198,7 @@
 	<string name="about_market_app_title">Google Play Page</string>
 	<string name="about_market_app_summary">Review or rate the app</string>
 
-	<string name="notification_coins_received_msg">Received %s</string>
+	<string name="notification_coins_received_msg">Received %1$s</string>
 
 	<string name="notification_peers_connected_msg">%d peers connected</string>
 

@@ -23,7 +23,7 @@
 	<string name="exchange_rates_fragment_default">(predeterminado)</string>
 	<string name="exchange_rates_fragment_rate">tipo</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Precio extraído de %s</string>
+	<string name="exchange_rates_fragment_source">Precio extraído de %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Establecer como moneda extranjera predeterminada</string>
 	<string name="wallet_transactions_fragment_tab_received">Recibidos</string>
 	<string name="wallet_transactions_fragment_tab_all">Todos</string>
@@ -52,9 +52,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Pagar a</string>
 	<string name="send_coins_fragment_receiving_address_hint">escribir dirección o nombre</string>
 	<string name="send_coins_fragment_receiving_address_error">¡Dirección Dimecoin inválida!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">¡No se puede usar la dirección %s con esta cartera!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">¡No se puede usar la dirección %1$s con esta cartera!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">¡No se puede usar una dirección de red desconocida con esta cartera!</string>
-	<string name="send_coins_fragment_pending">(%s DIME esperando confirmación)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME esperando confirmación)</string>
 
 	<string name="send_coins_fragment_amount_label">Cantidad a pagar</string>
 	<string name="send_coins_fragment_button_send">Enviar</string>
@@ -114,19 +114,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">descifrada</string>
 	<string name="import_keys_dialog_file_security_external">almacenamiento externo</string>
 	<string name="import_keys_dialog_file_security_internal">almacenamiento privado de la aplicación</string>
-	<string name="import_keys_dialog_file_created_automatic">copia de seguridad atomática %s</string>
-	<string name="import_keys_dialog_file_created_manual">se ha respaldado manualmente %s</string>
+	<string name="import_keys_dialog_file_created_automatic">copia de seguridad atomática %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">se ha respaldado manualmente %1$s</string>
 	<string name="import_keys_dialog_button_import">Restaurar</string>
 	<string name="import_keys_dialog_success_imported">Se han restaurado %d claves privadas.</string>
 	<string name="import_keys_dialog_success_existing">%d claves privadas no se han restaurado porque ya las tienes en tu monedero.</string>
 	<string name="import_keys_dialog_success_reset">Necesitas reevaluar la cadena de bloques para actualizar tu saldo. ¿Deseas hacerlo?</string>
-	<string name="import_keys_dialog_failure">No se han podido restaurar las claves privadas:\n\n%s\n\n¿Contraseña errónea?</string>
+	<string name="import_keys_dialog_failure">No se han podido restaurar las claves privadas:\n\n%1$s\n\n¿Contraseña errónea?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Restaurar</string>
 	<string name="export_keys_dialog_title">Respadar claves privadas</string>
 	<string name="export_keys_dialog_message">Tus claves privadas se encriptarán con la contraseña elegida y se guardarán en el almacenamiento externo.</string>
 	<string name="export_keys_dialog_button_export">Copia de seguridad</string>
-	<string name="export_keys_dialog_success">Se ha hecho copia de seguridad de tus claves privadas en\n\n%s\n\nMantenlas seguras. ¡Y conserva también segura tu contraseña!\n\n¿Deseas archivar tus claves mediante una aplicación?</string>
-	<string name="export_keys_dialog_failure">No se han podido respaldar tus claves privadas:\n%s</string>
+	<string name="export_keys_dialog_success">Se ha hecho copia de seguridad de tus claves privadas en\n\n%1$s\n\nMantenlas seguras. ¡Y conserva también segura tu contraseña!\n\n¿Deseas archivar tus claves mediante una aplicación?</string>
+	<string name="export_keys_dialog_failure">No se han podido respaldar tus claves privadas:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Archivo</string>
 	<string name="export_keys_dialog_mail_subject">Respaldo de claves privadas de Dimecoin Wallet</string>
 	<string name="export_keys_dialog_mail_text">El archivo cifrado adjunto contiene claves privadas Dimecoin y ha de mantenerse seguro en todo momento. ¡Nunca olvides la contraseña de cifrado!</string>
@@ -137,10 +137,10 @@
 	<string name="import_keys_intent_filter_action">Restauración de claves Dimecoin</string>
 	<string name="scan_camera_problem_dialog_title">Lo sentimos</string>
 	<string name="scan_camera_problem_dialog_message">La cámara ha sufrido un problema. Probablemente necesites reiniciar el dispositivo.</string>
-	<string name="input_parser_cannot_classify">Imposible clasificar:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">URI de Dimecoin inválida: \n%s</string>
+	<string name="input_parser_cannot_classify">Imposible clasificar:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">URI de Dimecoin inválida: \n%1$s</string>
 	<string name="input_parser_invalid_address">¡Dirección Dimecoin inválida!\n(¿Conflicto entre Mainnet y Testnet?)</string>
-	<string name="input_parser_invalid_transaction">Transacción invalida: \n%s</string>
+	<string name="input_parser_invalid_transaction">Transacción invalida: \n%1$s</string>
 	<string name="preferences_activity_title">Ajustes</string>
 	<string name="preferences_category_main">Preferencias</string>
 	<string name="preferences_category_diagnostics">Diagnóstico</string>
@@ -176,7 +176,7 @@
 	<string name="about_credits_zxing_title">Esta aplicación utiliza \'zxing\'</string>
 	<string name="about_market_app_title">Google Play</string>
 	<string name="about_market_app_summary">Critica o evalua la app</string>
-    <string name="notification_coins_received_msg">%s Recibidos</string>
+    <string name="notification_coins_received_msg">%1$s Recibidos</string>
 
 	<string name="notification_peers_connected_msg">%d pares conectados</string>
 

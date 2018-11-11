@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(alapértelmezett)</string>
 	<string name="exchange_rates_fragment_rate">árfolyam</string>
 	<string name="exchange_rates_fragment_balance">egyenleg</string>
-	<string name="exchange_rates_fragment_source">Ár letöltve innen: %s</string>
+	<string name="exchange_rates_fragment_source">Ár letöltve innen: %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Alapértelmezett külföldi pénznem beállítása</string>
 	<string name="wallet_transactions_fragment_tab_received">Fogadott</string>
 	<string name="wallet_transactions_fragment_tab_all">Mindkettő</string>
@@ -50,10 +50,10 @@
 	<string name="send_coins_fragment_receiving_address_label">Fizetés</string>
 	<string name="send_coins_fragment_receiving_address_hint">írd be a címet vagy nevet</string>
 	<string name="send_coins_fragment_receiving_address_error">Érvénytelen Dimecoin cím!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">a %s cím nem használható ezzel a tárcával!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">a %1$s cím nem használható ezzel a tárcával!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Ismeretlen hálózat címzettje nem használható ezzel a tárcával!</string>
 
-	<string name="send_coins_fragment_pending">(%s DIME várakozik jóváhagyásra)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME várakozik jóváhagyásra)</string>
 
 	<string name="send_coins_fragment_amount_label">Fizetendő összeg</string>
 	<string name="send_coins_fragment_button_send">Küldés</string>
@@ -110,19 +110,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">titkosítatlan</string>
 	<string name="import_keys_dialog_file_security_external">külső tárhely</string>
 	<string name="import_keys_dialog_file_security_internal">az alkalmazás privát tárhelye</string>
-	<string name="import_keys_dialog_file_created_automatic">automatikus mentés %s</string>
-	<string name="import_keys_dialog_file_created_manual">kézi visszaállítás %s</string>
+	<string name="import_keys_dialog_file_created_automatic">automatikus mentés %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">kézi visszaállítás %1$s</string>
 	<string name="import_keys_dialog_button_import">Visszaállítás</string>
 	<string name="import_keys_dialog_success_imported">%d privát kulcs került visszaállításra.</string>
 	<string name="import_keys_dialog_success_existing">%d privát kulcs nem került visszaállításra, mert azokat már használod a tárcádban.</string>
 	<string name="import_keys_dialog_success_reset">Az egyenleged frissítéséhez újra kell tölteni a blokkláncot. Szeretnéd újratölteni?</string>
-	<string name="import_keys_dialog_failure">Az alábbi privát kulcsok visszaállítása nem sikerült:\n\n%s\n\nRossz a jelszó esetleg?</string>
+	<string name="import_keys_dialog_failure">Az alábbi privát kulcsok visszaállítása nem sikerült:\n\n%1$s\n\nRossz a jelszó esetleg?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Visszaállítás/újratöltés</string>
 	<string name="export_keys_dialog_title">Privát kulcsok mentése</string>
 	<string name="export_keys_dialog_message">A privát kulcsaid a választott titkosított jelszóval kerülnek mentésre a külső tárolóra.</string>
 	<string name="export_keys_dialog_button_export">Mentés</string>
-	<string name="export_keys_dialog_success">A privát kulcsaid visszaállításra kerültek ide:\n\n%s\n\nTartsd biztonságos helyen, csakúgy mint a jelszavaidat!\n\nSzeretnéd menteni a kulcsokat?</string>
-	<string name="export_keys_dialog_failure">A privát kulcsaid visszaállítása nem sikerült:\n%s</string>
+	<string name="export_keys_dialog_success">A privát kulcsaid visszaállításra kerültek ide:\n\n%1$s\n\nTartsd biztonságos helyen, csakúgy mint a jelszavaidat!\n\nSzeretnéd menteni a kulcsokat?</string>
+	<string name="export_keys_dialog_failure">A privát kulcsaid visszaállítása nem sikerült:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Mentett</string>
 	<string name="export_keys_dialog_mail_subject">Dimecoin Wallet privát kulcs visszaállítása</string>
 	<string name="export_keys_dialog_mail_text">A mellékelt titkosított fájl a Dimecoin privát kulcsot tartalmazza melyet mindig biztonságos helyen kell tartani. Ne felejtsd el a titkosítási jelszavad!</string>
@@ -134,9 +134,9 @@
 	<string name="scan_camera_problem_dialog_title">Sajnáljuk</string>
 	<string name="scan_camera_problem_dialog_message">A kamera nem válaszol. Próbáld meg újraindítani az eszközt.</string>
 
-	<string name="input_parser_cannot_classify">Nem osztályozható bemenet:\n%s</string>
+	<string name="input_parser_cannot_classify">Nem osztályozható bemenet:\n%1$s</string>
 	<string name="input_parser_invalid_address">Érvénytelen Dimecoin cím!\n(Keveredés a Mainnet/Testnet-tel?)</string>
-	<string name="input_parser_invalid_transaction">Érvénytelen tranzakció:\n%s</string>
+	<string name="input_parser_invalid_transaction">Érvénytelen tranzakció:\n%1$s</string>
 
 	<string name="preferences_activity_title">Beállítások</string>
 	<string name="preferences_category_main">Beállítások</string>
@@ -168,11 +168,11 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Hiba küldése ezzel…</string>
 	<string name="about_title">Rólunk</string>
 	<string name="about_license_title">Licensz</string>
-	<string name="about_credits_bitcoinj_title">Az applikáció Dimecoinj %s-t használ</string>
+	<string name="about_credits_bitcoinj_title">Az applikáció Dimecoinj %1$s-t használ</string>
 	<string name="about_credits_zxing_title">Ez az app \'zxing\'-et használ</string>
 	<string name="about_market_app_title">Google Play oldal</string>
 	<string name="about_market_app_summary">Értékelések</string>
-    <string name="notification_coins_received_msg">Fogadott mennyiség: %s</string>
+    <string name="notification_coins_received_msg">Fogadott mennyiség: %1$s</string>
 	<string name="notification_peers_connected_msg">%d peer kapcsolódva</string>
 	<!-- generic buttons -->
 	<string name="button_dismiss">Elutasít</string>

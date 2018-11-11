@@ -23,7 +23,7 @@
 	<string name="exchange_rates_fragment_default">(varsayılan)</string>
 	<string name="exchange_rates_fragment_rate">oran</string>
 	<string name="exchange_rates_fragment_balance">bakiye</string>
-	<string name="exchange_rates_fragment_source">Fiyatlar %s unsurundan alındı</string>
+	<string name="exchange_rates_fragment_source">Fiyatlar %1$s unsurundan alındı</string>
 	<string name="exchange_rates_context_set_as_default_title">Varsayılan döviz olarak ayarla</string>
 	<string name="wallet_transactions_fragment_tab_received">Alınan</string>
 	<string name="wallet_transactions_fragment_tab_all">İkisi</string>
@@ -51,9 +51,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Şuna öde</string>
 	<string name="send_coins_fragment_receiving_address_hint">adını veya adresini giriniz</string>
 	<string name="send_coins_fragment_receiving_address_error">Geçersiz Dimecoin adresi!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">%s adresi bu cüzdanla kullanılamaz!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">%1$s adresi bu cüzdanla kullanılamaz!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Bilinmeyen bir şebekenin adresi bu cüzdanla kullanılamaz!</string>
-	<string name="send_coins_fragment_pending">(%s DIME teyit bekliyor)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME teyit bekliyor)</string>
 
 	<string name="send_coins_fragment_amount_label">Ödenecek miktar</string>
 	<string name="send_coins_fragment_button_send">Gönder</string>
@@ -115,19 +115,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">şifresiz</string>
 	<string name="import_keys_dialog_file_security_external">harici depolama</string>
 	<string name="import_keys_dialog_file_security_internal">uygulama-özel depolama </string>
-	<string name="import_keys_dialog_file_created_automatic">otomatik yedekleme %s</string>
-	<string name="import_keys_dialog_file_created_manual">%s elle yedeklendi</string>
+	<string name="import_keys_dialog_file_created_automatic">otomatik yedekleme %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">%1$s elle yedeklendi</string>
 	<string name="import_keys_dialog_button_import">Geri al</string>
 	<string name="import_keys_dialog_success_imported">%d özel anahtar geri getirildi.</string>
 	<string name="import_keys_dialog_success_existing">%d anahtar geri getirilmedi çünkü zaten cüzdanınızda mevcutlar.</string>
 	<string name="import_keys_dialog_success_reset">Bakiyenizi güncellemek için blok zincirini sıfırlamanız gerekiyor. Bunu yapmak istiyor musunuz?</string>
-	<string name="import_keys_dialog_failure">Özel anahtarlar geri getirilemedi:\n\n%s\n\nYanlış parola olmasın?</string>
+	<string name="import_keys_dialog_failure">Özel anahtarlar geri getirilemedi:\n\n%1$s\n\nYanlış parola olmasın?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Sıfırla</string>
 	<string name="export_keys_dialog_title">Özel anahtarları yedekle</string>
 	<string name="export_keys_dialog_message">Özel anahtarlarınız seçilen parolayla şifrelenecek ve harici depolamaya yedeklenecektir.</string>
 	<string name="export_keys_dialog_button_export">Yedekle</string>
-	<string name="export_keys_dialog_success">Özel anahtarlarınız şu konumda yedeklendi:\n\n%s\n\nHem onları hem de parolanızı güvenli bir şekilde saklayın!\n\nAnahtarlarınızı bir uygulama kullanarak arşivlemek istiyor musunuz?</string>
-	<string name="export_keys_dialog_failure">Özel anahtarlarınız yedeklenemedi:\n%s</string>
+	<string name="export_keys_dialog_success">Özel anahtarlarınız şu konumda yedeklendi:\n\n%1$s\n\nHem onları hem de parolanızı güvenli bir şekilde saklayın!\n\nAnahtarlarınızı bir uygulama kullanarak arşivlemek istiyor musunuz?</string>
+	<string name="export_keys_dialog_failure">Özel anahtarlarınız yedeklenemedi:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Arşivle</string>
 	<string name="export_keys_dialog_mail_subject">Dimecoin Wallet özel anahtar yedeklemesi</string>
 	<string name="export_keys_dialog_mail_text">Eklenen şifreli dosya Dimecoin özel anahtarlarını içermektedir ve güvenli bir yerde saklanmalıdır. Şifreleme parolanızı unutmayınız!</string>
@@ -138,10 +138,10 @@
 	<string name="import_keys_intent_filter_action">Dimecoin anahtar geri yükleme</string>
 	<string name="scan_camera_problem_dialog_title">Üzgünüz</string>
 	<string name="scan_camera_problem_dialog_message">Fotoğraf makinesinde bir problem var. Muhtemelen cihazınızı yeniden başlatmanız gerekiyor.</string>
-	<string name="input_parser_cannot_classify">Girdi sınıflandırılamadı:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Geçersiz Dimecoin adresi:\n%s</string>
+	<string name="input_parser_cannot_classify">Girdi sınıflandırılamadı:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Geçersiz Dimecoin adresi:\n%1$s</string>
 	<string name="input_parser_invalid_address">Geçersiz bir Dimecoin adresi alındı!\n(Mainnet ve Testnet karışmış olmasın?)</string>
-	<string name="input_parser_invalid_transaction">Geçersiz muamele:\n%s</string>
+	<string name="input_parser_invalid_transaction">Geçersiz muamele:\n%1$s</string>
 	<string name="preferences_activity_title">Ayarlar</string>
 	<string name="preferences_category_main">Tercihler</string>
 	<string name="preferences_category_diagnostics">Teşhisler</string>
@@ -173,10 +173,10 @@
 
 	<string name="about_title">Hakkında</string>
 	<string name="about_license_title">Lisans</string>
-	<string name="about_credits_bitcoinj_title">Bu uygulama Dimecoinj %s kullanmaktadır</string>
+	<string name="about_credits_bitcoinj_title">Bu uygulama Dimecoinj %1$s kullanmaktadır</string>
 	<string name="about_credits_zxing_title">Bu uygulama \'zxing\' kullanmaktadır</string>
     <string name="about_market_app_title">Android Market uygulama sayfası</string>
-    <string name="notification_coins_received_msg">%s alındı</string>
+    <string name="notification_coins_received_msg">%1$s alındı</string>
  	<string name="notification_peers_connected_msg">%d eş bağlı</string>
 	<!-- generic buttons -->
     <string name="button_dismiss">Reddet</string>

@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(defaŭlta)</string>
 	<string name="exchange_rates_fragment_rate">proporcio</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Prezo prenis de %s</string>
+	<string name="exchange_rates_fragment_source">Prezo prenis de %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Ŝalti kiel defaŭltan eksterlandan valuton</string>
 	<string name="wallet_transactions_fragment_tab_received">Ricevita</string>
 	<string name="wallet_transactions_fragment_tab_all">Ambaŭ</string>
@@ -48,9 +48,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Pagu al</string>
 	<string name="send_coins_fragment_receiving_address_hint">tajpu adreson aŭ nomon</string>
 	<string name="send_coins_fragment_receiving_address_error">Malvalida Bitmonadreso!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Ne eblas uzi %s adreson kun ĉi tiu monujo!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Ne eblas uzi %1$s adreson kun ĉi tiu monujo!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Ne eblas uzi adreson de nekonata reto kun ĉi tiu monujo!</string>
-	<string name="send_coins_fragment_pending">(DIME %s atendadi konfirmon)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s atendadi konfirmon)</string>
 	<string name="send_coins_fragment_amount_label">Kvanto pagi</string>
 	<string name="send_coins_fragment_button_send">Sendu</string>
 	<string name="send_coins_fragment_button_back">Reen</string>
@@ -106,19 +106,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">neĉifrita</string>
 	<string name="import_keys_dialog_file_security_external">ekstera stoko</string>
 	<string name="import_keys_dialog_file_security_internal">aplikaĵa-privata storo</string>
-	<string name="import_keys_dialog_file_created_automatic">aŭtomata savkopio %s</string>
-	<string name="import_keys_dialog_file_created_manual">permane savokopiita %s</string>
+	<string name="import_keys_dialog_file_created_automatic">aŭtomata savkopio %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">permane savokopiita %1$s</string>
 	<string name="import_keys_dialog_button_import">Restaŭri</string>
 	<string name="import_keys_dialog_success_imported">%d privataj ŝlosiloj estis restaŭritaj</string>
 	<string name="import_keys_dialog_success_existing">%d privataj ŝlosiloj ne estis restaŭritaj, ĉar vi jam havas ilin en via monujo.</string>
 	<string name="import_keys_dialog_success_reset">Vi bezonas reŝargi vian blokĉenon por ĝisdatigi vian saldon. Ĉu vi volas?</string>
-	<string name="import_keys_dialog_failure">Privataj ŝlosiloj ne povis esti restaŭritaj\n\n%s\n\nMalbona pasvorto?</string>
+	<string name="import_keys_dialog_failure">Privataj ŝlosiloj ne povis esti restaŭritaj\n\n%1$s\n\nMalbona pasvorto?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Reŝargi</string>
 	<string name="export_keys_dialog_title">Savkopi privatajn ŝlosilojn</string>
 	<string name="export_keys_dialog_message">Viaj privataj ŝlosiloj estos ĉifritaj kun l\'elektita pasvorto kaj skribitaj al ekstera storo.</string>
 	<string name="export_keys_dialog_button_export">Savkopi</string>
-	<string name="export_keys_dialog_success">Viaj privataj ŝlosiloj estas savkopiitaj ĝis\n\n%s\n\nKonservu ilin sekurajn, kaj konservu vian pasvorton sekuran!\n\nĈu vi volas arkivi viajn ŝlosilojn uzante aplikaĵo?</string>
-	<string name="export_keys_dialog_failure">Viaj privataj ŝlosiloj ne povis esti savkopiitaj:\n%s</string>
+	<string name="export_keys_dialog_success">Viaj privataj ŝlosiloj estas savkopiitaj ĝis\n\n%1$s\n\nKonservu ilin sekurajn, kaj konservu vian pasvorton sekuran!\n\nĈu vi volas arkivi viajn ŝlosilojn uzante aplikaĵo?</string>
+	<string name="export_keys_dialog_failure">Viaj privataj ŝlosiloj ne povis esti savkopiitaj:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Arkivo</string>
 	<string name="export_keys_dialog_mail_subject">BitmonMonujo privataj ŝlosiloj savkopio</string>
 	<string name="export_keys_dialog_mail_text">La kuna ĉifrita dosiero entenas Bitmonajn privatajn ŝlosilojn, kaj devus esti sekura ĉiam. Ne forgesu la ĉifradan pasvorton!</string>
@@ -129,10 +129,10 @@
 	<string name="import_keys_intent_filter_action">Bitmona ŝlosila restaŭro</string>
 	<string name="scan_camera_problem_dialog_title">Pardonu</string>
 	<string name="scan_camera_problem_dialog_message">La kamero havas problemon. Vi verŝajne bezonas restartigi la aparaton.</string>
-	<string name="input_parser_cannot_classify">Ne eblis klasifiki enigon:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Malvalida Bitmono URI:\n%s</string>
+	<string name="input_parser_cannot_classify">Ne eblis klasifiki enigon:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Malvalida Bitmono URI:\n%1$s</string>
 	<string name="input_parser_invalid_address">Havas malvalidan bitmonadreson!\n(Uzante testreto anstataŭ ĉefreto?)</string>
-	<string name="input_parser_invalid_transaction">Malvalida transakcio:\n%s</string>
+	<string name="input_parser_invalid_transaction">Malvalida transakcio:\n%1$s</string>
 	<string name="preferences_activity_title">Agoroj</string>
 	<string name="preferences_category_main">Pli d\'Agordoj</string>
 	<string name="preferences_category_diagnostics">Diagnozo</string>
@@ -163,11 +163,11 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Sendi reporton uzante…</string>
 	<string name="about_title">Pri</string>
 	<string name="about_license_title">Licenco</string>
-	<string name="about_credits_bitcoinj_title">Ĉi tiu aplikaĵo uzas Dimecoinj-n %s</string>
+	<string name="about_credits_bitcoinj_title">Ĉi tiu aplikaĵo uzas Dimecoinj-n %1$s</string>
 	<string name="about_credits_zxing_title">Ĉi tiu aplikaĵo uzas \'zxing\'-n</string>
 	<string name="about_market_app_title">\"Google Play\" Paĝo</string>
 	<string name="about_market_app_summary">Revui aŭ gradi l\'aplikaĵon</string>
-    <string name="notification_coins_received_msg">Ricevita %s</string>
+    <string name="notification_coins_received_msg">Ricevita %1$s</string>
 	<string name="notification_peers_connected_msg">%d pajroj konektitaj</string>
 
 	<!-- generic buttons -->

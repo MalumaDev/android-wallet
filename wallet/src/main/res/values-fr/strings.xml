@@ -23,7 +23,7 @@
 	<string name="exchange_rates_fragment_default">(par défaut)</string>
 	<string name="exchange_rates_fragment_rate">taux</string>
 	<string name="exchange_rates_fragment_balance">solde</string>
-	<string name="exchange_rates_fragment_source">Prix provenant de %s</string>
+	<string name="exchange_rates_fragment_source">Prix provenant de %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Définir comme devise étrangère par défaut</string>
 	<string name="wallet_transactions_fragment_tab_received">Reçu</string>
 	<string name="wallet_transactions_fragment_tab_all">Les deux</string>
@@ -56,10 +56,10 @@
 	<string name="send_coins_fragment_receiving_address_label">Payer à</string>
 	<string name="send_coins_fragment_receiving_address_hint">saisir l\'adresse ou le nom</string>
 	<string name="send_coins_fragment_receiving_address_error">Adresse Dimecoin invalide !</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Impossible d\'utiliser l\'adresse %s avec ce porte-feuille !</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Impossible d\'utiliser l\'adresse %1$s avec ce porte-feuille !</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Impossible d\'utiliser l\'adresse d\'un réseau inconnu avec ce porte-feuille !</string>
 
-	<string name="send_coins_fragment_pending">(DIME %s en attente de confirmation)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s en attente de confirmation)</string>
 
 	<string name="send_coins_fragment_amount_label">Montant à payer</string>
 	<string name="send_coins_fragment_button_send">Envoyer</string>
@@ -119,19 +119,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">non chiffré</string>
 	<string name="import_keys_dialog_file_security_external">stockage externe</string>
 	<string name="import_keys_dialog_file_security_internal">stockage appli-privée</string>
-	<string name="import_keys_dialog_file_created_automatic">sauvegarde automatique %s</string>
-	<string name="import_keys_dialog_file_created_manual">%s sauvegardé manuellement</string>
+	<string name="import_keys_dialog_file_created_automatic">sauvegarde automatique %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">%1$s sauvegardé manuellement</string>
 	<string name="import_keys_dialog_button_import">Récupérer</string>
 	<string name="import_keys_dialog_success_imported">%d clefs privées ont été récupérées.</string>
 	<string name="import_keys_dialog_success_existing">%d clefs privées n\'ont pas été récupérées car vous les avez déjà dans votre porte-feuille.</string>
 	<string name="import_keys_dialog_success_reset">Vous devez réinitaliser la chaîne des blocs pour mettre à jour votre solde. Voulez-vous le faire ?</string>
-	<string name="import_keys_dialog_failure">Les clefs privées n\'ont pas pu être récupérées :\n\n%s\n\nMot de passe erroné ?</string>
+	<string name="import_keys_dialog_failure">Les clefs privées n\'ont pas pu être récupérées :\n\n%1$s\n\nMot de passe erroné ?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Réinitialiser</string>
 	<string name="export_keys_dialog_title">Sauvegarder les clefs privées</string>
 	<string name="export_keys_dialog_message">Vos clefs privées seront chiffrées avec le mot de passe choisi et sauvegardées sur le stockage externe.</string>
 	<string name="export_keys_dialog_button_export">Sauvegarder</string>
-	<string name="export_keys_dialog_success">Vos clefs privées ont été sauvegardées sur\n\n%s\n\nGardez les en lieu sûr tout comme votre mot de passe !\n\nVoulez-vous archiver vos clefs en utilisant une appli ?</string>
-	<string name="export_keys_dialog_failure">Vos clefs privées n\'ont pas pu être sauvegardées :\n%s</string>
+	<string name="export_keys_dialog_success">Vos clefs privées ont été sauvegardées sur\n\n%1$s\n\nGardez les en lieu sûr tout comme votre mot de passe !\n\nVoulez-vous archiver vos clefs en utilisant une appli ?</string>
+	<string name="export_keys_dialog_failure">Vos clefs privées n\'ont pas pu être sauvegardées :\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Archiver</string>
 
 	<string name="export_keys_dialog_mail_subject">Sauvegarde des clefs privées de Dimecoin Wallet</string>
@@ -143,9 +143,9 @@
 	<string name="import_keys_intent_filter_action">Récupération des clefs Dimecoin</string>
 	<string name="scan_camera_problem_dialog_title">Désolé</string>
 	<string name="scan_camera_problem_dialog_message">La caméra a un problème. Vous devez probablement redémarrer votre appareil.</string>
-	<string name="input_parser_cannot_classify">Impossible de classifier l\'entrée :\n%s</string>
+	<string name="input_parser_cannot_classify">Impossible de classifier l\'entrée :\n%1$s</string>
 	<string name="input_parser_invalid_address">Réception d\'une adresse Dimecoin invalide!\n(Mélange Mainnet/Testnet?)</string>
-	<string name="input_parser_invalid_transaction">Transaction invalide :\n%s</string>
+	<string name="input_parser_invalid_transaction">Transaction invalide :\n%1$s</string>
 	<string name="preferences_activity_title">Réglages</string>
 
 	<string name="preferences_category_main">Préférences</string>
@@ -178,11 +178,11 @@
 	<string name="about_title">À propos</string>
 	<string name="about_license_title">License</string>
 
-	<string name="about_credits_bitcoinj_title">Cette appli utilise Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Cette appli utilise Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Cette appli utilise « zxing »</string>
 	<string name="about_market_app_title">Page Google Play</string>
 	<string name="about_market_app_summary">Critiquer ou évaluer cette appli</string>
-    <string name="notification_coins_received_msg">%s reçu</string>
+    <string name="notification_coins_received_msg">%1$s reçu</string>
 	<string name="notification_peers_connected_msg">%d pairs connectés</string>
 
 	<!-- generic buttons -->

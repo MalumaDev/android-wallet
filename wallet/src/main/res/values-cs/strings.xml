@@ -26,7 +26,7 @@
 	<string name="send_coins_fragment_receiving_address_hint">napište adresu či jméno</string>
 
 	<string name="send_coins_fragment_receiving_address_error">Nesprávná Dimecoin Adresa!</string>
-	<string name="send_coins_fragment_pending">(DIME %s čeká na potvrzení)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s čeká na potvrzení)</string>
 
 	<string name="send_coins_fragment_amount_label">Částka k zaplacení</string>
 	<string name="send_coins_fragment_button_send">Poslat</string>
@@ -56,11 +56,11 @@
 
 	<string name="about_title">O aplikaci</string>
 	<string name="about_license_title">Licence</string>
-	<string name="about_credits_bitcoinj_title">Aplikace používá Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Aplikace používá Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"Aplikace používá 'zxing'"</string>
     <string name="about_market_app_title">Aplikace na Google Play</string>
 
-    <string name="notification_coins_received_msg">Obdrženo %s</string>
+    <string name="notification_coins_received_msg">Obdrženo %1$s</string>
 
 	<string name="notification_peers_connected_msg">%d peerů připojeno</string>
 

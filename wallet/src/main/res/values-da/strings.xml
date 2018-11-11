@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(standard)</string>
 	<string name="exchange_rates_fragment_rate">kurs</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Pris indhentet fra %s</string>
+	<string name="exchange_rates_fragment_source">Pris indhentet fra %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Sæt som standard for fremmed valuta</string>
 	<string name="wallet_transactions_fragment_tab_received">Modtaget</string>
 	<string name="wallet_transactions_fragment_tab_all">Begge</string>
@@ -48,9 +48,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Betal til</string>
 	<string name="send_coins_fragment_receiving_address_hint">skriv adresse eller navn</string>
 	<string name="send_coins_fragment_receiving_address_error">Ugyldig Dimecoin-adresse!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Kan ikke bruge %s adresse med denne tegnebog!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Kan ikke bruge %1$s adresse med denne tegnebog!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Kan ikke bruge adresse for ukendt netværk med denne tegnebog!</string>
-	<string name="send_coins_fragment_pending">(DIME %s venter på bekræftelse)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s venter på bekræftelse)</string>
 	<string name="send_coins_fragment_amount_label">Beløb at betale</string>
 	<string name="send_coins_fragment_button_send">Send</string>
 	<string name="send_coins_fragment_button_back">Tilbage</string>
@@ -106,19 +106,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">ukrypteret</string>
 	<string name="import_keys_dialog_file_security_external">ekstern lager</string>
 	<string name="import_keys_dialog_file_security_internal">app-privat lager</string>
-	<string name="import_keys_dialog_file_created_automatic">automatisk sikkerhedskopi %s</string>
-	<string name="import_keys_dialog_file_created_manual">manuel sikkerhedskopi %s</string>
+	<string name="import_keys_dialog_file_created_automatic">automatisk sikkerhedskopi %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">manuel sikkerhedskopi %1$s</string>
 	<string name="import_keys_dialog_button_import">Genopret</string>
 	<string name="import_keys_dialog_success_imported">%d private nøgler blev genoprettet.</string>
 	<string name="import_keys_dialog_success_existing">%d private nøgler blev ikke genoprettet, fordi du allerede har dem i din tegnebog.</string>
 	<string name="import_keys_dialog_success_reset">Du skal nulstille din blokkæde for at opdatere din saldo. Vil du gøre dette?</string>
-	<string name="import_keys_dialog_failure">Private nøgler kunne ikke genoprettes:\n\n%s\n\nForkert kodeord?</string>
+	<string name="import_keys_dialog_failure">Private nøgler kunne ikke genoprettes:\n\n%1$s\n\nForkert kodeord?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Nulstil</string>
 	<string name="export_keys_dialog_title">Sikkerhedskopiér private nøgler</string>
 	<string name="export_keys_dialog_message">Dine private nøgler vil blive krypteret med det valgte kodeord og skrevet til eksternt lager.</string>
 	<string name="export_keys_dialog_button_export">Sikkerskopiér</string>
-	<string name="export_keys_dialog_success">Dine private nøgler er blevet sikkerhedskopieret til\n\n%s\n\nOpbevar dem sikkert, og opbevar dit kodeord sikkert!\n\nVil du arkivere dine nøgler vha. en app?</string>
-	<string name="export_keys_dialog_failure">Dine private nøfler kunne ikke sikkerhedskopieres:\n%s</string>
+	<string name="export_keys_dialog_success">Dine private nøgler er blevet sikkerhedskopieret til\n\n%1$s\n\nOpbevar dem sikkert, og opbevar dit kodeord sikkert!\n\nVil du arkivere dine nøgler vha. en app?</string>
+	<string name="export_keys_dialog_failure">Dine private nøfler kunne ikke sikkerhedskopieres:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Arkivér</string>
 	<string name="export_keys_dialog_mail_subject">Sikkerhedskopiering af private nøgler fra Dimecoin-tegnebog</string>
 	<string name="export_keys_dialog_mail_text">Den vedhæftede krypterede fil indeholder private Dimecoin-nøgler og bør til enhver tid opbevares sikkert. Glem ikke krypteringskodeordet!</string>
@@ -129,10 +129,10 @@
 	<string name="import_keys_intent_filter_action">Genoprettelse af Dimecoin-nøgler</string>
 	<string name="scan_camera_problem_dialog_title">Beklager</string>
 	<string name="scan_camera_problem_dialog_message">Der er et problem med kameraet. En gentstart af enheden er sandsynligvis nødvendig.</string>
-	<string name="input_parser_cannot_classify">Kan ikke klassificere input:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Ugyldig Dimecoin-URI:\n%s</string>
+	<string name="input_parser_cannot_classify">Kan ikke klassificere input:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Ugyldig Dimecoin-URI:\n%1$s</string>
 	<string name="input_parser_invalid_address">Modtog ugyldig bitcoin-adresse!\n(Blanding af Mainnet/Testnet?)</string>
-	<string name="input_parser_invalid_transaction">Ugyldig transaktion:\n%s</string>
+	<string name="input_parser_invalid_transaction">Ugyldig transaktion:\n%1$s</string>
 	<string name="preferences_activity_title">Opsætning</string>
 	<string name="preferences_category_main">Indstillinger</string>
 	<string name="preferences_category_diagnostics">Diagnostik</string>
@@ -163,11 +163,11 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Send rapport ved hjælp af…</string>
 	<string name="about_title">Om</string>
 	<string name="about_license_title">Licens</string>
-	<string name="about_credits_bitcoinj_title">Denne app bruger Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Denne app bruger Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"Denne app bruger 'zxing'"</string>
     <string name="about_market_app_title">Google Play-side</string>
 	<string name="about_market_app_summary">Anmeld eller bedøm appen</string>
-    <string name="notification_coins_received_msg">Modtog %s</string>
+    <string name="notification_coins_received_msg">Modtog %1$s</string>
 	<string name="notification_peers_connected_msg">%d peers forbundet</string>
 
 	<!-- generic buttons -->

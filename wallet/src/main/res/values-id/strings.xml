@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(standar)</string>
 	<string name="exchange_rates_fragment_rate">nilai</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Harga diambil dari %s</string>
+	<string name="exchange_rates_fragment_source">Harga diambil dari %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Tetapkan sebagai mata uang asing standar</string>
 	<string name="wallet_transactions_fragment_tab_received">Diterima</string>
 	<string name="wallet_transactions_fragment_tab_all">Keduanya</string>
@@ -49,9 +49,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Bayar ke</string>
 	<string name="send_coins_fragment_receiving_address_hint">masukkan alamat atau nama</string>
 	<string name="send_coins_fragment_receiving_address_error">Alamat Dimecoin Salah!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Tidak dapat menggunakan %s dgn dompet ini!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Tidak dapat menggunakan %1$s dgn dompet ini!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Tidak dapat menggunakan alamat dari jaringan tak diketahui dgn dompet ini!</string>
-	<string name="send_coins_fragment_pending">(DIME %s menunggu konfirmasi)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s menunggu konfirmasi)</string>
 
 	<string name="send_coins_fragment_amount_label">Jumlah pembayaran</string>
 	<string name="send_coins_fragment_button_send">Kirim</string>
@@ -107,19 +107,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">tak terenkripsi</string>
 	<string name="import_keys_dialog_file_security_external">penyimpanan eksternal</string>
 	<string name="import_keys_dialog_file_security_internal">penyimpanan pribadi-apl</string>
-	<string name="import_keys_dialog_file_created_automatic">pencadangan otomatis %s</string>
-	<string name="import_keys_dialog_file_created_manual">dicadangkan manual %s</string>
+	<string name="import_keys_dialog_file_created_automatic">pencadangan otomatis %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">dicadangkan manual %1$s</string>
 	<string name="import_keys_dialog_button_import">Pulihkan</string>
 	<string name="import_keys_dialog_success_imported">%d kunci pribadi telah dipulihkan.</string>
 	<string name="import_keys_dialog_success_existing">%d kunci pribadi tidak dipulihkan, karena Anda telah mempunyainya di dompet.</string>
 	<string name="import_keys_dialog_success_reset">Anda perlu mengatur-ulang rantai-blok untuk perbarui saldo Anda. Apakah Anda ingin lakukan?</string>
-	<string name="import_keys_dialog_failure">Kunci pribadi tidak dpt dipulihkan:\n\n%s\n\nKata sandi salah?</string>
+	<string name="import_keys_dialog_failure">Kunci pribadi tidak dpt dipulihkan:\n\n%1$s\n\nKata sandi salah?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Atur-ulang</string>
 	<string name="export_keys_dialog_title">Cadangkan kunci pribadi</string>
 	<string name="export_keys_dialog_message">Kunci pribadi Anda akan dienkripsi dgn kata sandi terpilih dan akan disimpan ke penyimpanan eksternal.</string>
 	<string name="export_keys_dialog_button_export">Cadangkan</string>
-	<string name="export_keys_dialog_success">Kunci pribadi Anda telah dicadangkan ke\n\n%s\n\nAmankan, dan jagalah kata sandi Anda!\n\nApakah Anda ingin arsipkan dgn apl?</string>
-	<string name="export_keys_dialog_failure">Kunci pribadi Anda tidak dpt dicadangkan:\n%s</string>
+	<string name="export_keys_dialog_success">Kunci pribadi Anda telah dicadangkan ke\n\n%1$s\n\nAmankan, dan jagalah kata sandi Anda!\n\nApakah Anda ingin arsipkan dgn apl?</string>
+	<string name="export_keys_dialog_failure">Kunci pribadi Anda tidak dpt dicadangkan:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Arsip</string>
 	<string name="export_keys_dialog_mail_subject">Pencadangan kunci pribadi Dimecoin Wallet</string>
 	<string name="export_keys_dialog_mail_text">Berkas terenkripsi terlampir mengandung kunci pribadi Dimecoin dan harus dijaga senantiasa. Jangan lupakan kata sandi enkripsi!</string>
@@ -130,7 +130,7 @@
 	<string name="import_keys_intent_filter_action">Pulihkan kunci pribadi</string>
 	<string name="scan_camera_problem_dialog_title">Maaf</string>
 	<string name="scan_camera_problem_dialog_message">Kamera mengalami masalah. Anda mungkin harus menyala-ulangkan ponsel.</string>
-	<string name="input_parser_invalid_bitcoin_uri">Tautan Dimecoin Salah:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Tautan Dimecoin Salah:\n%1$s</string>
 	<string name="input_parser_invalid_address">Alamat Dimecoin salah!\n(Keliru dgn Mainet/Testnet?)</string>
 	<string name="preferences_activity_title">Pengaturan</string>
 	<string name="preferences_category_main">Preferensi</string>
@@ -159,10 +159,10 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Kirim laporan dgn…</string>
 	<string name="about_title">Mengenai</string>
 	<string name="about_license_title">Lisensi</string>
-	<string name="about_credits_bitcoinj_title">Apl ini menggunakan Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Apl ini menggunakan Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Apl ini menggunakan \'zxing\'</string>
 	<string name="about_market_app_title">Halaman Apl Google Play</string>
-    <string name="notification_coins_received_msg">Diterima %s</string>
+    <string name="notification_coins_received_msg">Diterima %1$s</string>
 	<string name="notification_peers_connected_msg">%d peer terhubung</string>
 
 	<!-- generic buttons -->

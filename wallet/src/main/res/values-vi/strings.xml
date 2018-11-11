@@ -20,7 +20,7 @@
 	<string name="exchange_rates_fragment_default">(mặc định)</string>
 	<string name="exchange_rates_fragment_rate">tỉ lệ</string>
 	<string name="exchange_rates_fragment_balance">cân bằng</string>
-	<string name="exchange_rates_fragment_source">Giá được tải về từ %s</string>
+	<string name="exchange_rates_fragment_source">Giá được tải về từ %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Đặc làm đơn vị ngoại tệ mặc định</string>
 	<string name="wallet_transactions_fragment_tab_received">Đã nhận</string>
 	<string name="wallet_transactions_fragment_tab_all">Cả hai</string>
@@ -46,9 +46,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Trả cho</string>
 	<string name="send_coins_fragment_receiving_address_hint">loại địa chỉ hoặc tên</string>
 	<string name="send_coins_fragment_receiving_address_error">Địa chỉ Dimecoin không hợp lệ!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Không thể sử dụng địa chỉ %s với ví tiền này!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Không thể sử dụng địa chỉ %1$s với ví tiền này!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Không thể sử dụng địa chỉ của những mạng chưa rõ thông tin với ví tiền này!</string>
-	<string name="send_coins_fragment_pending">(DIME %s đợi xác nhận)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s đợi xác nhận)</string>
 
 	<string name="send_coins_fragment_amount_label">Số lượng chi trả</string>
 	<string name="send_coins_fragment_button_send">Gửi</string>
@@ -102,19 +102,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">giải mã</string>
 	<string name="import_keys_dialog_file_security_external">thẻ nhớ</string>
 	<string name="import_keys_dialog_file_security_internal">phần lưu thông tin cá nhân</string>
-	<string name="import_keys_dialog_file_created_automatic">tự động sao lưu %s</string>
-	<string name="import_keys_dialog_file_created_manual">dữ liệu do người dùng xuất %s</string>
+	<string name="import_keys_dialog_file_created_automatic">tự động sao lưu %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">dữ liệu do người dùng xuất %1$s</string>
 	<string name="import_keys_dialog_button_import">Nhập dữ liệu</string>
 	<string name="import_keys_dialog_success_imported">đã nhập %d khóa cá nhân.</string>
 	<string name="import_keys_dialog_success_existing">vẫn chưa nhập được %d khóa cá nhân, vì trong ví tiền của bạn đã có những khóa này.</string>
 	<string name="import_keys_dialog_success_reset">Bạn cần phải thiết đặt lại blockchain để cập nhật trạng thái cân bằng tài khoản. Bạn có muốn thực hiện không?</string>
-	<string name="import_keys_dialog_failure">Khóa cá nhân không thể được nhập vào:\n\n%s\n\nDo sai mật khẩu?</string>
+	<string name="import_keys_dialog_failure">Khóa cá nhân không thể được nhập vào:\n\n%1$s\n\nDo sai mật khẩu?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Thiết đặt lại</string>
 	<string name="export_keys_dialog_title">Xuất dữ liệu từ các khóa cá nhân</string>
 	<string name="export_keys_dialog_message">Các khóa cá nhân của bạn sẽ được mã hóa với một mật khẩu do bạn chọn và sau đó ghi dữ liệu mã hóa vào thẻ nhớ.</string>
 	<string name="export_keys_dialog_button_export">Xuất dữ liệu</string>
-	<string name="export_keys_dialog_success">Khóa cá nhân đã được xuất đến\n\n%s\n\nGiữ các khóa này ở nơi an toàn cũng ghi nhớ mật khẩu bạn đã đặt!\n\nBạn có muốn lưu giữ các khóa của bạn khi sử dụng ứng này không?</string>
-	<string name="export_keys_dialog_failure">Khóa cá nhân của bạn vẫn chưa được xuất dữ liệu:\n%s</string>
+	<string name="export_keys_dialog_success">Khóa cá nhân đã được xuất đến\n\n%1$s\n\nGiữ các khóa này ở nơi an toàn cũng ghi nhớ mật khẩu bạn đã đặt!\n\nBạn có muốn lưu giữ các khóa của bạn khi sử dụng ứng này không?</string>
+	<string name="export_keys_dialog_failure">Khóa cá nhân của bạn vẫn chưa được xuất dữ liệu:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Lưu trữ</string>
 	<string name="export_keys_dialog_mail_subject">Sao lưu khóa cá nhân của Dimecoin Wallet</string>
 	<string name="export_keys_dialog_mail_text">Phần tập tin đính kèm được mã hóa chứa các khóa cá nhân dạng Dimecoin và nên được cất giữ ở một nơi an toàn. Đừng quên mật khẩu dành đã đặt khi mã hóa!</string>
@@ -125,7 +125,7 @@
 	<string name="import_keys_intent_filter_action">Nhập dữ liệu từ khóa Dimecoin</string>
 	<string name="scan_camera_problem_dialog_title">Rất tiếc</string>
 	<string name="scan_camera_problem_dialog_message">Phần camera gặp vấn đề. Bạn nên khởi động lại thiết bị này.</string>
-	<string name="input_parser_invalid_bitcoin_uri">Dimecoin URI không hợp lệ:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Dimecoin URI không hợp lệ:\n%1$s</string>
 	<string name="input_parser_invalid_address">Đã nhận được địa chỉ Dimecoin không hợp lệ!\n(Nhầm lẫn giữa Mainnet/Testnet?)</string>
 	<string name="preferences_activity_title">Thiết lập</string>
 	<string name="preferences_category_main">Tùy biến</string>
@@ -152,10 +152,10 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Gửi báo cáo sử dụng…</string>
 	<string name="about_title">Thông tin</string>
 	<string name="about_license_title">Giấy phép</string>
-	<string name="about_credits_bitcoinj_title">Ứng dụng này đang sử dụng Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Ứng dụng này đang sử dụng Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Ứng dụng này sử dụng \'zxing\'</string>
     <string name="about_market_app_title">Trang web của ứng dụng trên Google Play</string>
-    <string name="notification_coins_received_msg">đã nhận %s</string>
+    <string name="notification_coins_received_msg">đã nhận %1$s</string>
 	<string name="notification_peers_connected_msg">%d mạng ngang hàng đã kết nối</string>
 
 	<!-- generic buttons -->

@@ -27,7 +27,7 @@
 	<string name="send_coins_fragment_receiving_address_hint">πληκτρολογήστε τη διεύθυνση ή το όνομα</string>
 
 	<string name="send_coins_fragment_receiving_address_error">Άκυρα Διεύθυνση Dimecoin!</string>
-	<string name="send_coins_fragment_pending">(DIME %s αναμονή για την επιβεβαίωση)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s αναμονή για την επιβεβαίωση)</string>
 
 	<string name="send_coins_fragment_amount_label">Ποσό να πληρωθεί</string>
 	<string name="send_coins_fragment_button_send">Αποστολή</string>
@@ -57,12 +57,12 @@
 
 	<string name="about_title">Πληροφορίες</string>
 	<string name="about_license_title">Άδεια</string>
-	<string name="about_credits_bitcoinj_title">Αυτή η εφαρμογή χρησιμοποιεί Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Αυτή η εφαρμογή χρησιμοποιεί Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"Αυτή η εφαρμογή χρησιμοποιεί'zxing'"</string>
 	<string name="about_market_app_title">Σελίδα Εφαρμογών του Google Play</string>
 
 
-    <string name="notification_coins_received_msg">Ελήφθη %s</string>
+    <string name="notification_coins_received_msg">Ελήφθη %1$s</string>
 
 	<string name="notification_peers_connected_msg">%d χρήστες συνδεμένοι</string>
 

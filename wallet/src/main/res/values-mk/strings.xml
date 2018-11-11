@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(главно)</string>
 	<string name="exchange_rates_fragment_rate">курс</string>
 	<string name="exchange_rates_fragment_balance">салдо</string>
-	<string name="exchange_rates_fragment_source">Цената е преземена од %s</string>
+	<string name="exchange_rates_fragment_source">Цената е преземена од %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Постави како главна странска валута</string>
 	<string name="wallet_transactions_fragment_tab_received">Примено</string>
 	<string name="wallet_transactions_fragment_tab_all">Двете</string>
@@ -48,9 +48,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Плати на</string>
 	<string name="send_coins_fragment_receiving_address_hint">впиши адреса или име</string>
 	<string name="send_coins_fragment_receiving_address_error">Невалидна Биткоин адреса!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Не може да користиш %s адреса со овој паричник!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Не може да користиш %1$s адреса со овој паричник!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Не може да користиш адреса на непозната мрежа со овој паричник!</string>
-	<string name="send_coins_fragment_pending">(DIME %s чека за потврда)</string>
+	<string name="send_coins_fragment_pending">(DIME %1$s чека за потврда)</string>
 	<string name="send_coins_fragment_amount_label">Сума да се плати</string>
 	<string name="send_coins_fragment_button_send">Испрати</string>
 	<string name="send_coins_fragment_button_back">Назад</string>
@@ -106,19 +106,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">отшифрирано</string>
 	<string name="import_keys_dialog_file_security_external">надворешен склад</string>
 	<string name="import_keys_dialog_file_security_internal">приватен склад на апликацијата</string>
-	<string name="import_keys_dialog_file_created_automatic">автоматска резервна копија %s</string>
-	<string name="import_keys_dialog_file_created_manual">рачна резервна копија %s</string>
+	<string name="import_keys_dialog_file_created_automatic">автоматска резервна копија %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">рачна резервна копија %1$s</string>
 	<string name="import_keys_dialog_button_import">Поврати</string>
 	<string name="import_keys_dialog_success_imported">%d приватни клучеви беа повратени.</string>
 	<string name="import_keys_dialog_success_existing">%d приватни клучеви не беа повратени, бидејќи веќе ги имаш во твојот паричник.</string>
 	<string name="import_keys_dialog_success_reset">Треба да го ресетираш blockchain за да го ажурираш твоето салдо. Сакаш да го направиш тоа?</string>
-	<string name="import_keys_dialog_failure">Приватните клучеви не може да се повратат:\n\n%s\n\nГрешна лозинка?</string>
+	<string name="import_keys_dialog_failure">Приватните клучеви не може да се повратат:\n\n%1$s\n\nГрешна лозинка?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Ресетирај</string>
 	<string name="export_keys_dialog_title">Направи резервна копија од приватните клучеви</string>
 	<string name="export_keys_dialog_message">Твоите приватни клучеви ќе бидат шифрирани со одбраната лозинка и зачувани во надворешен склад.</string>
 	<string name="export_keys_dialog_button_export">Направи резервна копија</string>
-	<string name="export_keys_dialog_success">Твоите приватни клучеви имаат резервна копија во\n\n%s\n\nЧувај ги на безбедно место и чувај ја твојата лозинка тајна!\n\nДали сакаш да ги архивираш твоите клучеви преку апликација?</string>
-	<string name="export_keys_dialog_failure">Не може да се креира резервна копија од твоите приватни клучеви:\n%s</string>
+	<string name="export_keys_dialog_success">Твоите приватни клучеви имаат резервна копија во\n\n%1$s\n\nЧувај ги на безбедно место и чувај ја твојата лозинка тајна!\n\nДали сакаш да ги архивираш твоите клучеви преку апликација?</string>
+	<string name="export_keys_dialog_failure">Не може да се креира резервна копија од твоите приватни клучеви:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Архива</string>
 	<string name="export_keys_dialog_mail_subject">Резервна копија од приватен клуч на Биткоин Паричник</string>
 	<string name="export_keys_dialog_mail_text">Прикачениот шифриран фајл содржи приватни клучеви и треба да се чува на сигурно место. Не ја заборавај шифрираната лозинка!</string>
@@ -129,10 +129,10 @@
 	<string name="import_keys_intent_filter_action">Поврати Биткоин клуч</string>
 	<string name="scan_camera_problem_dialog_title">Извини</string>
 	<string name="scan_camera_problem_dialog_message">Камерата јавува проблем. Најверојатно треба да го рестартираш уредот.</string>
-	<string name="input_parser_cannot_classify">Не може да се класифицира внесот:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Невалидно Биткоин URI:\n%s</string>
+	<string name="input_parser_cannot_classify">Не може да се класифицира внесот:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Невалидно Биткоин URI:\n%1$s</string>
 	<string name="input_parser_invalid_address">Невалидна биткоин адреса!\n(Згреши со Mainnet/Testnet?)</string>
-	<string name="input_parser_invalid_transaction">Невалидна трансакција:\n%s</string>
+	<string name="input_parser_invalid_transaction">Невалидна трансакција:\n%1$s</string>
 	<string name="preferences_activity_title">Поставувања</string>
 	<string name="preferences_category_main">Параметри</string>
 	<string name="preferences_category_diagnostics">Дијагностицирање</string>
@@ -163,11 +163,11 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Испрати извештај со…</string>
 	<string name="about_title">За апликацијата</string>
 	<string name="about_license_title">Лиценца</string>
-	<string name="about_credits_bitcoinj_title">Оваа апликација користи Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Оваа апликација користи Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Оваа апликација користи \'zxing\'</string>
 	<string name="about_market_app_title">Google Play страница</string>
 	<string name="about_market_app_summary">Напиши мислење или оцени ја апликацијата</string>
-    <string name="notification_coins_received_msg">Примени %s</string>
+    <string name="notification_coins_received_msg">Примени %1$s</string>
 	<string name="notification_peers_connected_msg">%d поврзани точки</string>
 
 	<!-- generic buttons -->

@@ -38,9 +38,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Skicka till</string>
 	<string name="send_coins_fragment_receiving_address_hint">skriv adress eller namn</string>
 	<string name="send_coins_fragment_receiving_address_error">Ogiltig Dimecoin adress!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Kan inte använda %s adressen med denna plånbok!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Kan inte använda %1$s adressen med denna plånbok!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Kan inte använda adressen från det okända nätverket med denna plånbok!</string>
-	<string name="send_coins_fragment_pending">(%s DIME väntar på att bekräftas)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME väntar på att bekräftas)</string>
 
 	<string name="send_coins_fragment_amount_label">Belopp att skicka</string>
 	<string name="send_coins_fragment_button_send">Skicka</string>
@@ -76,14 +76,14 @@
 	<string name="edit_address_book_entry_dialog_label_label">Namn</string>
 	<string name="edit_address_book_entry_dialog_button_edit">Spara</string>
 	<string name="peer_list_fragment_empty">Inga peers anslutna</string>
-	<string name="input_parser_invalid_bitcoin_uri">Ogiltig Dimecoinadress:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Ogiltig Dimecoinadress:\n%1$s</string>
 	<string name="input_parser_invalid_address">Fick ogiltig Dimecoinadress!\n(Blandar du ihop Mainnet/Testnet?)</string>
 	<string name="about_title">Om</string>
 	<string name="about_license_title">Licens</string>
-	<string name="about_credits_bitcoinj_title">Denna app använder Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Denna app använder Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Denna app använder \'zxing\'</string>
     <string name="about_market_app_title">Google Play app sida</string>
-    <string name="notification_coins_received_msg">Tagit emot %s</string>
+    <string name="notification_coins_received_msg">Tagit emot %1$s</string>
 	<string name="notification_peers_connected_msg">Ansluten till %d noder</string>
 
 	<!-- generic buttons -->

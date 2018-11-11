@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(padrão)</string>
 	<string name="exchange_rates_fragment_rate">tipo</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Preço obtido de %s</string>
+	<string name="exchange_rates_fragment_source">Preço obtido de %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Definir como moeda padrão</string>
 	<string name="wallet_transactions_fragment_tab_received">Recebidos</string>
 	<string name="wallet_transactions_fragment_tab_all">Todos</string>
@@ -50,9 +50,9 @@
 	<string name="send_coins_fragment_receiving_address_label">Pagar a</string>
 	<string name="send_coins_fragment_receiving_address_hint">insira o endereço ou nome</string>
 	<string name="send_coins_fragment_receiving_address_error">Endereço Dimecoin inválido!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Não é possível usar o endereço %s com esta carteira!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Não é possível usar o endereço %1$s com esta carteira!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Não é possível usar um endereço de rede desconhecido com esta carteira!</string>
-	<string name="send_coins_fragment_pending">(%s DIME esperando confirmação)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME esperando confirmação)</string>
 
 	<string name="send_coins_fragment_amount_label">Quantidade a pagar</string>
 	<string name="send_coins_fragment_button_send">Enviar</string>
@@ -114,19 +114,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">decifrado</string>
 	<string name="import_keys_dialog_file_security_external">armazenamento externo</string>
 	<string name="import_keys_dialog_file_security_internal">armazenamento privado do aplicativo</string>
-	<string name="import_keys_dialog_file_created_automatic">backup automático %s</string>
-	<string name="import_keys_dialog_file_created_manual">backup manual %s</string>
+	<string name="import_keys_dialog_file_created_automatic">backup automático %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">backup manual %1$s</string>
 	<string name="import_keys_dialog_button_import">Importar</string>
 	<string name="import_keys_dialog_success_imported">%d chaves privadas foram restauradas.</string>
 	<string name="import_keys_dialog_success_existing">%d chaves privadas não foram restauradas porque já estavam em sua carteira.</string>
 	<string name="import_keys_dialog_success_reset">Você precisa reiniciar seu blockchain para atualizar seu saldo. Deseja continuar?</string>
-	<string name="import_keys_dialog_failure">Não foi possível importar as chaves privadas:\n\n%s\n\nSenha incorreta?</string>
+	<string name="import_keys_dialog_failure">Não foi possível importar as chaves privadas:\n\n%1$s\n\nSenha incorreta?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Reiniciar</string>
 	<string name="export_keys_dialog_title">Exportar chaves privadas</string>
 	<string name="export_keys_dialog_message">Suas chaves privadas serão criptografadas com a senha escolhida e gravadas no armazenamento externo.</string>
 	<string name="export_keys_dialog_button_export">Exportar</string>
-	<string name="export_keys_dialog_success">Suas chaves privadas foram exportadas\n\n%s\n\nMantenha sua senha e chaves privadas em segurança!\n\nDeseja utilizar um aplicativo para arquivar suas chaves?</string>
-	<string name="export_keys_dialog_failure">Não foi possível exportar suas chaves privadas:\n%s</string>
+	<string name="export_keys_dialog_success">Suas chaves privadas foram exportadas\n\n%1$s\n\nMantenha sua senha e chaves privadas em segurança!\n\nDeseja utilizar um aplicativo para arquivar suas chaves?</string>
+	<string name="export_keys_dialog_failure">Não foi possível exportar suas chaves privadas:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Arquivo</string>
 	<string name="export_keys_dialog_mail_subject">Backup Dimecoin Wallet chaves privadas</string>
 	<string name="export_keys_dialog_mail_text">O arquivo cifrado em anexo contém chaves privadas Dimecoin e deve ser mantido em segurança. Nunca se esqueça da senha de cifrado.</string>
@@ -138,10 +138,10 @@
 	<string name="import_keys_intent_filter_action">Restauração de chaves Dimecoin</string>
 	<string name="scan_camera_problem_dialog_title">Desculpe</string>
 	<string name="scan_camera_problem_dialog_message">Ocorreu um problema com a câmera. Você provavelmente precisará reiniciar o dispositivo.</string>
-	<string name="input_parser_cannot_classify">Não é possível classificar as entradas:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">Endereços Dimecoin inválidos:\n%s</string>
+	<string name="input_parser_cannot_classify">Não é possível classificar as entradas:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">Endereços Dimecoin inválidos:\n%1$s</string>
 	<string name="input_parser_invalid_address">Endereço inválido de Dimecoin!\n(Mixing up Mainnet/Testnet?)</string>
-	<string name="input_parser_invalid_transaction">Transação inválida:\n%s</string>
+	<string name="input_parser_invalid_transaction">Transação inválida:\n%1$s</string>
 
 	<string name="preferences_activity_title">Configurações</string>
 	<string name="preferences_category_main">Preferências</string>
@@ -173,12 +173,12 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Enviar relatório usando…</string>
 	<string name="about_title">Sobre</string>
 	<string name="about_license_title">Licença</string>
-	<string name="about_credits_bitcoinj_title">Este aplicativo utiliza Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">Este aplicativo utiliza Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">Este aplicativo utiliza \'zxing\'</string>
     <string name="about_market_app_title">Página no Google Play</string>
 	<string name="about_market_app_summary">Comente ou classifique o aplicativo</string>
 
-    <string name="notification_coins_received_msg">Recebido %s</string>
+    <string name="notification_coins_received_msg">Recebido %1$s</string>
 
 	<string name="notification_peers_connected_msg">%d pares conectados</string>
 

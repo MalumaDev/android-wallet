@@ -20,7 +20,7 @@
 	<string name="exchange_rates_fragment_default">(ברירת מחדל)</string>
 	<string name="exchange_rates_fragment_rate">שער</string>
 	<string name="exchange_rates_fragment_balance">מאזן</string>
-	<string name="exchange_rates_fragment_source">המחיר נתקבל מ: %s</string>
+	<string name="exchange_rates_fragment_source">המחיר נתקבל מ: %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">שמור כמטבע ברירת מחדל</string>
 	<string name="wallet_transactions_fragment_tab_received">נתקבל</string>
 	<string name="wallet_transactions_fragment_tab_all">נשלח/נתקבל</string>
@@ -94,8 +94,8 @@
 	<string name="import_keys_dialog_file_security_unencrypted">לא הוצפנה</string>
 	<string name="import_keys_dialog_file_security_external">אחסון בהתקן חיצוני</string>
 	<string name="import_keys_dialog_file_security_internal">אחסון באפליקציה</string>
-	<string name="import_keys_dialog_file_created_automatic">גיבוי אוטומאטי %s</string>
-	<string name="import_keys_dialog_file_created_manual">ייצוא ידני %s</string>
+	<string name="import_keys_dialog_file_created_automatic">גיבוי אוטומאטי %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">ייצוא ידני %1$s</string>
 	<string name="import_keys_dialog_button_import">ייבא</string>
 	<string name="import_keys_dialog_success_imported">%d מפתחות פרטיים יובאו</string>
 	<string name="import_keys_dialog_success_existing">%d מפתחות פרטיים לא יובאו מכיוון שהם כבר בארנק</string>
@@ -106,13 +106,13 @@
 	<string name="export_keys_dialog_message">המפתחות שלך יוצפנו בעזרת הסיסמא ויאוחסנו בהתקן החיצוני</string>
 	<string name="export_keys_dialog_button_export">ייצוא</string>
 	<string name="export_keys_dialog_success">המפתחות שלך יוצאו, שמור אותם ואת הסיסמא במקום בטוח</string>
-	<string name="export_keys_dialog_failure">לא ניתן לייצא מפתחות פרטיים:\n%s</string>
+	<string name="export_keys_dialog_failure">לא ניתן לייצא מפתחות פרטיים:\n%1$s</string>
 	<string name="import_export_keys_dialog_password">סיסמא</string>
 	<string name="import_export_keys_dialog_show">הצג סיסמא</string>
 	<string name="import_export_keys_dialog_failure_title">שגיאה</string>
 	<string name="scan_camera_problem_dialog_title">סליחה</string>
 	<string name="scan_camera_problem_dialog_message">בעיה במצלמה</string>
-	<string name="input_parser_invalid_bitcoin_uri">כתובת ביטקוין לא חוקית:\n%s</string>
+	<string name="input_parser_invalid_bitcoin_uri">כתובת ביטקוין לא חוקית:\n%1$s</string>
 	<string name="input_parser_invalid_address">כתובת ביטקוין לא חוקית</string>
 	<string name="preferences_activity_title">הגדרות</string>
 	<string name="preferences_category_main">העדפות</string>
@@ -139,10 +139,10 @@
 	<string name="report_issue_dialog_mail_intent_chooser">שלח דוח באמצעות…</string>
 	<string name="about_title">על</string>
 	<string name="about_license_title">רישיון</string>
-	<string name="about_credits_bitcoinj_title">This app is using Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">This app is using Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"This app is using 'zxing'"</string>
 	<string name="about_market_app_title">Google Play App Page</string>
-    <string name="notification_coins_received_msg">נתקבלו %s</string>
+    <string name="notification_coins_received_msg">נתקבלו %1$s</string>
 	<string name="notification_peers_connected_msg">%d שכנים מחוברים</string>
 
 	<!-- generic buttons -->

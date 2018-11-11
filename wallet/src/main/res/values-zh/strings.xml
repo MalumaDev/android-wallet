@@ -24,7 +24,7 @@
 	<string name="send_coins_fragment_receiving_address_label">发送给</string>
 	<string name="send_coins_fragment_receiving_address_hint">输入地址或姓名</string>
 	<string name="send_coins_fragment_receiving_address_error">地址错误！</string>
-	<string name="send_coins_fragment_pending">（%s夸克币等待网络确认）</string>
+	<string name="send_coins_fragment_pending">（%1$s夸克币等待网络确认）</string>
 	<string name="send_coins_fragment_amount_label">总量</string>
 	<string name="send_coins_fragment_button_send">发送</string>
 	<string name="send_coins_sending_msg">发送中…</string>
@@ -53,11 +53,11 @@
 
 	<string name="about_title">关于</string>
 	<string name="about_license_title">授权</string>
-	<string name="about_credits_bitcoinj_title">本程序使用 Dimecoinj %s</string>
+	<string name="about_credits_bitcoinj_title">本程序使用 Dimecoinj %1$s</string>
 	<string name="about_credits_zxing_title">"本程序使用 'zxing'"</string>
 	<string name="about_market_app_title">Google Play 市场程序页</string>
 
-    <string name="notification_coins_received_msg">已收到%s夸克币</string>
+    <string name="notification_coins_received_msg">已收到%1$s夸克币</string>
 	<string name="notification_peers_connected_msg">%d连接已建立</string>
 
 	<!-- generic buttons -->

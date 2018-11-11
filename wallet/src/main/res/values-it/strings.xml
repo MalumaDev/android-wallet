@@ -21,7 +21,7 @@
 	<string name="exchange_rates_fragment_default">(predefinito)</string>
 	<string name="exchange_rates_fragment_rate">tasso</string>
 	<string name="exchange_rates_fragment_balance">saldo</string>
-	<string name="exchange_rates_fragment_source">Prezzo prelevato da %s</string>
+	<string name="exchange_rates_fragment_source">Prezzo prelevato da %1$s</string>
 	<string name="exchange_rates_context_set_as_default_title">Imposta come valuta straniera predefinita</string>
 	<string name="wallet_transactions_fragment_tab_received">Ricevuto</string>
 	<string name="wallet_transactions_fragment_tab_all">Entrambi</string>
@@ -50,10 +50,10 @@
 	<string name="send_coins_fragment_receiving_address_label">Paga a</string>
 	<string name="send_coins_fragment_receiving_address_hint">inserisci indirizzo o nome</string>
 	<string name="send_coins_fragment_receiving_address_error">Indirizzo Dimecoin invalido!</string>
-	<string name="send_coins_fragment_receiving_address_error_cross_network">Non puoi usare l\'indirizzo %s con questo portafoglio!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">Non puoi usare l\'indirizzo %1$s con questo portafoglio!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Non puoi usare l\'indirizzo di una rete sconosciuta con questo portafoglio!</string>
 
-	<string name="send_coins_fragment_pending">(%s DIME in attesa di conferma)</string>
+	<string name="send_coins_fragment_pending">(%1$s DIME in attesa di conferma)</string>
 
 	<string name="send_coins_fragment_amount_label">Importo da pagare</string>
 	<string name="send_coins_fragment_button_send">Invia</string>
@@ -110,19 +110,19 @@
 	<string name="import_keys_dialog_file_security_unencrypted">non criptata</string>
 	<string name="import_keys_dialog_file_security_external">memoria esterna</string>
 	<string name="import_keys_dialog_file_security_internal">memoria app-privata</string>
-	<string name="import_keys_dialog_file_created_automatic">backup automatico %s</string>
-	<string name="import_keys_dialog_file_created_manual">Eseguito il backup manualmente %s</string>
+	<string name="import_keys_dialog_file_created_automatic">backup automatico %1$s</string>
+	<string name="import_keys_dialog_file_created_manual">Eseguito il backup manualmente %1$s</string>
 	<string name="import_keys_dialog_button_import">Ripristina</string>
 	<string name="import_keys_dialog_success_imported">%d chiavi private sono state ripristinate</string>
 	<string name="import_keys_dialog_success_existing">%d chiavi private non sono state ripristinate, perché ce le hai già nel tuo portafoglio.</string>
 	<string name="import_keys_dialog_success_reset">Hai bisogno di riavviare il tuo blockchain per aggiornare il tuo conto. Desideri farlo?</string>
-	<string name="import_keys_dialog_failure">Le chiavi private potrebbero non essere ripristinate:\n\n%s\n\nPassword errata?</string>
+	<string name="import_keys_dialog_failure">Le chiavi private potrebbero non essere ripristinate:\n\n%1$s\n\nPassword errata?</string>
 	<string name="import_keys_dialog_button_reset_blockchain">Reset</string>
 	<string name="export_keys_dialog_title">Backup delle chiavi private</string>
 	<string name="export_keys_dialog_message">Le tue chiavi private saranno crittografate con la password scelta e scritte in una memoria esterna</string>
 	<string name="export_keys_dialog_button_export">Backup</string>
-	<string name="export_keys_dialog_success">Le tue chiavi private sono state salvate con un backup a\n\n%s\n\nMantienile sicure, e mantieni sicura anche la tua password!\n\nVuoi archiviare le tue chiavi usando un\'app?</string>
-	<string name="export_keys_dialog_failure">Le tue chiavi private potrebbero non essere salvate con il backup:\n%s</string>
+	<string name="export_keys_dialog_success">Le tue chiavi private sono state salvate con un backup a\n\n%1$s\n\nMantienile sicure, e mantieni sicura anche la tua password!\n\nVuoi archiviare le tue chiavi usando un\'app?</string>
+	<string name="export_keys_dialog_failure">Le tue chiavi private potrebbero non essere salvate con il backup:\n%1$s</string>
 	<string name="export_keys_dialog_button_archive">Archivio</string>
 	<string name="export_keys_dialog_mail_subject">Backup della chiave pubblica Dimecoin Wallet</string>
 	<string name="export_keys_dialog_mail_text">Il file cifrato allegato contiene chiavi private Dimecoin e dovrebbe essere mantenuto sicuro in ogni momento. Non dimenticarti la password per la crittografia!</string>
@@ -134,10 +134,10 @@
 	<string name="scan_camera_problem_dialog_title">Scusa</string>
 	<string name="scan_camera_problem_dialog_message">La videocamera ha un problema. Probabilmente è necessario riavviare il dispositivo.</string>
 
-	<string name="input_parser_cannot_classify">Impossibile classificare ingresso:\n%s</string>
-	<string name="input_parser_invalid_bitcoin_uri">URI Dimecoin non valido:\n%s</string>
+	<string name="input_parser_cannot_classify">Impossibile classificare ingresso:\n%1$s</string>
+	<string name="input_parser_invalid_bitcoin_uri">URI Dimecoin non valido:\n%1$s</string>
 	<string name="input_parser_invalid_address">Ricevuto indirizzo Dimecoin non valido!\n(Hai mescolato Mainnet/Testnet?)</string>
-	<string name="input_parser_invalid_transaction">Transazione non valida:\n%s</string>
+	<string name="input_parser_invalid_transaction">Transazione non valida:\n%1$s</string>
 
 	<string name="preferences_activity_title">Impostazioni</string>
 	<string name="preferences_category_main">Preferenze</string>
@@ -173,7 +173,7 @@
 	<string name="about_credits_zxing_title">Questa applicazione fa uso di \'zxing\'</string>
 	<string name="about_market_app_title">Pagina Google Play</string>
 	<string name="about_market_app_summary">Recensire o votare l\'app</string>
-    <string name="notification_coins_received_msg">Ricevuti %s</string>
+    <string name="notification_coins_received_msg">Ricevuti %1$s</string>
 	<string name="notification_peers_connected_msg">Connesso a %d peers</string>
 
 	<!-- generic buttons -->
