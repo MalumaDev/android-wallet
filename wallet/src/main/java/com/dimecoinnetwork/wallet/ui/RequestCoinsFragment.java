@@ -79,7 +79,7 @@ import com.dimecoinnetwork.wallet.util.BitmapFragment;
 import com.dimecoinnetwork.wallet.util.Bluetooth;
 import com.dimecoinnetwork.wallet.util.Nfc;
 import com.dimecoinnetwork.wallet.util.Qr;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

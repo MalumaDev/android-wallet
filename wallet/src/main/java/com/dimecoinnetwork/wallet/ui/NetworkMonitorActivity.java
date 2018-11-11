@@ -26,7 +26,7 @@ import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 
 import com.dimecoinnetwork.wallet.util.ViewPagerTabs;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

@@ -58,7 +58,7 @@ import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
 import com.dimecoinnetwork.wallet.camera.CameraManager;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

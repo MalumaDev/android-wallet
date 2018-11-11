@@ -53,7 +53,7 @@ import com.dimecoinnetwork.wallet.PaymentIntent;
 import com.dimecoinnetwork.wallet.util.Io;
 import com.dimecoinnetwork.wallet.util.Qr;
 import com.google.bitcoin.core.CoinDefinition;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 
 /**

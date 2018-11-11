@@ -71,7 +71,7 @@ import com.dimecoinnetwork.wallet.util.CrashReporter;
 import com.dimecoinnetwork.wallet.util.Io;
 import com.dimecoinnetwork.wallet.util.LinuxSecureRandom;
 import com.dimecoinnetwork.wallet.util.WalletUtils;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 
 /**

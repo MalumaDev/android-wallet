@@ -51,7 +51,7 @@ import com.google.bitcoin.core.VersionMessage;
 
 import com.dimecoinnetwork.wallet.service.BlockchainService;
 import com.dimecoinnetwork.wallet.service.BlockchainServiceImpl;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

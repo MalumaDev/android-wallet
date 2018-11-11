@@ -95,7 +95,7 @@ import com.dimecoinnetwork.wallet.ui.WalletActivity;
 import com.dimecoinnetwork.wallet.util.CrashReporter;
 import com.dimecoinnetwork.wallet.util.GenericUtils;
 import com.dimecoinnetwork.wallet.util.WalletUtils;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 import com.dimecoinnetwork.wallet.util.ThrottlingWalletChangeListener;
 
 /**

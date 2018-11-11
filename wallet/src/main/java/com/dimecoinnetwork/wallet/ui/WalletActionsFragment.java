@@ -27,7 +27,7 @@ import android.view.ViewGroup;
 
 import com.github.clans.fab.FloatingActionMenu;
 
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

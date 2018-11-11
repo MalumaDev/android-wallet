@@ -29,7 +29,7 @@ import com.google.bitcoin.core.VersionMessage;
 
 import com.dimecoinnetwork.wallet.Constants;
 import com.dimecoinnetwork.wallet.WalletApplication;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

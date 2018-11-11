@@ -42,7 +42,7 @@ import com.dimecoinnetwork.wallet.Configuration;
 import com.dimecoinnetwork.wallet.Constants;
 import com.dimecoinnetwork.wallet.WalletApplication;
 import com.dimecoinnetwork.wallet.util.CrashReporter;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

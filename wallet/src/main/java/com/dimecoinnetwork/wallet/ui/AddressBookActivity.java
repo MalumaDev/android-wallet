@@ -35,7 +35,7 @@ import com.google.bitcoin.core.ECKey;
 
 import com.dimecoinnetwork.wallet.Constants;
 import com.dimecoinnetwork.wallet.util.ViewPagerTabs;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

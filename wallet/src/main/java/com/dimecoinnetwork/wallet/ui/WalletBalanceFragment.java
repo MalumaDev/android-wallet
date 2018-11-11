@@ -50,7 +50,7 @@ import com.dimecoinnetwork.wallet.ExchangeRatesProvider.ExchangeRate;
 import com.dimecoinnetwork.wallet.WalletApplication;
 import com.dimecoinnetwork.wallet.service.BlockchainService;
 import com.dimecoinnetwork.wallet.util.WalletUtils;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

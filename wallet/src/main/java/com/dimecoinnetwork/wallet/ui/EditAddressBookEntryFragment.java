@@ -35,7 +35,7 @@ import android.widget.TextView;
 import com.dimecoinnetwork.wallet.AddressBookProvider;
 import com.dimecoinnetwork.wallet.Constants;
 import com.dimecoinnetwork.wallet.util.WalletUtils;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

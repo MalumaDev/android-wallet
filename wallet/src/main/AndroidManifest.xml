@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="com.dimecoin.wallet"
+	package="com.dimecoinnetwork.wallet"
 	android:installLocation="internalOnly">
 
 	<uses-permission android:name="android.permission.INTERNET" />
@@ -178,12 +178,12 @@
         <!-- Need to update this for the coin -->
 		<provider
 			android:name="com.dimecoinnetwork.wallet.AddressBookProvider"
-			android:authorities="com.dimecoin.wallet.address_book"
+			android:authorities="com.dimecoinnetwork.wallet.address_book"
 			android:exported="false" />
         <!-- Need to update this for the coin -->
 		<provider
 			android:name="com.dimecoinnetwork.wallet.ExchangeRatesProvider"
-			android:authorities="com.dimecoin.wallet.exchange_rates"
+			android:authorities="com.dimecoinnetwork.wallet.exchange_rates"
 			android:exported="false" />
 
 		<receiver

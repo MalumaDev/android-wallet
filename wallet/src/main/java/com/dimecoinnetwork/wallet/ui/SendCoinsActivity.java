@@ -26,7 +26,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.view.Menu;
 import android.view.MenuItem;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 import com.dimecoinnetwork.wallet.PaymentIntent;
 
 /**

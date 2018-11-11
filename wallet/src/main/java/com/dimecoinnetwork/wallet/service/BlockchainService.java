@@ -23,7 +23,7 @@ import javax.annotation.CheckForNull;
 
 import com.google.bitcoin.core.Peer;
 import com.google.bitcoin.core.StoredBlock;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 
 /**

@@ -27,7 +27,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.dimecoinnetwork.wallet.ui.TransactionsListFragment.Direction;
 import com.dimecoinnetwork.wallet.util.ViewPagerTabs;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

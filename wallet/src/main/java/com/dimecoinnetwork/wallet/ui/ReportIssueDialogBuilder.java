@@ -46,7 +46,7 @@ import android.widget.Toast;
 import com.dimecoinnetwork.wallet.Constants;
 import com.dimecoinnetwork.wallet.util.CrashReporter;
 import com.dimecoinnetwork.wallet.util.Io;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 /**
  * @author Andreas Schildbach

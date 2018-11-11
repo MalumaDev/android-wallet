@@ -95,7 +95,7 @@ import com.dimecoinnetwork.wallet.util.Nfc;
 import com.dimecoinnetwork.wallet.util.WalletUtils;
 
 import com.google.bitcoin.core.CoinDefinition;
-import com.dimecoin.wallet.R;
+import com.dimecoinnetwork.wallet.R;
 
 
 /**
